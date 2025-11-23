@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="imagenes/yo_ico.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/style.css">
+        <title> Contacto - Pixelfolio </title>
+    </head>
+<!--Aqui ta el header-->
+    <body>
+        <header class="header">
+            <div class="header-top">
+                <div class="col-img"><a href="../../index.html"><img src="imagenes/pixelfolio.png" title="Pixelfolio" alt="Pixelfolio"></a></div>
+                <button class="header-btn">=</button>
+            </div>
+            <nav class="header-menu">
+                <ul>
+                    <li class="men1" ><a href="../sobre_mi/sobre_mi.html" >Sobre mi</a></li>
+                    <li class="men1" ><a href="../trabajos/trabajos.html" >Trabajos</a></li>
+                    <li class="men1" ><a href="../inspiracion/inspiracion.html" >Inspiracion</a></li>
+                    <li class="men1" ><a href="../contacto/contacto.html" >Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--Aqui termina el header-->
+    <div class="primer-grupo">
+        <h1>Contacto</h1>
+            <div class="image">
+                <a href="https://www.instagram.com/samu.pixel.exe/"> <img src="imagenes/ig_logo.png" title="Instagram" alt="Instagram" class="img1"></a>
+            </div>
+                <p class="textito">Sientete libre de revisar mi trabajo en Instagram. Abajo te dejo mi correo electronico para que puedas ponerte en contacto conmigo</p>
+    </div>        
+        <img src="imagenes/pixel_yo.gif" title="Animacion" alt="Animacion" class="img2">
+    
+    <div class="segundo-grupo">
+            <h2>lapazajimenez@gmail.com</h2>
+            <img src="imagenes/arturo.png" title="Arturo" alt="Arturo" class="img3">
+    </div>
+
+        <div class="form">
+            <section class="form-register">
+                <h4> Contactame </h4>
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellido">
+                <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+                
+                    <div class="container">       
+                            <div class="radio">
+                                <input type="radio" name="sexo" id="masculino">
+                                <label for="masculino">Masculino</label>
+            
+                                <input type="radio" name="sexo" id="femenino">
+                                <label for="femenino">Femenino</label>
+                            </div>
+    <br>
+                            <div class="text">
+                                <textarea name="eltexto" id="eltexto" aria-label="30" rows="10" class="insertetexto" placeholder="Escribe tu mensaje"></textarea>
+                            </div>
+            
+                            <div class="bottom">
+                                <button class="boton">
+                                    <div class="icono">
+                                <img src="flecha.png" width="10" height="10" fill="currentColor" alt="flecha" class="flechita">
+                            </div>
+                        <br>
+                        <br>
+                        <br>
+                        <span>Enviar</span>
+                    </div>
+                </button>
+            </section>
+        </div>
+            <br>
+            <br>
+            <br>
+<!--Aqui comienza el footer-->
+<footer>
+    <div class="menu2">
+        <a href="../sobre_mi/sobre_mi.html" class="men2">Sobre mi</a>
+        <a href="../trabajos/trabajos.html" class="men2">Trabajos</a>
+        <a href="../inspiracion/inspiracion.html" class="men2">Inspiraciòn</a>
+        <a href="../contacto/contacto.html" class="men2">Contacto</a>
+    </div>
+    <div class="footer-bottom">
+        <p> Copyright &copy;2022 Arturo. Diseñado por <span>ArturoR2D2</span></p>
+    </div>
+</footer>
+<!--Aqui termina el footer-->
+<!--Parte importante del header-->
+<script>
+const header_btn = document.querySelector('.header-btn')
+const header_menu = document.querySelector('.header-menu')
+header_btn.addEventListener('click', () => { 
+    if (header_menu.style.display != 'block') {
+        header_menu.style.display = 'block'
+    } else {
+        header_menu.style.display = 'none'
+    }
+})
+</script>
+<!--Parte importante del header final-->
+</body>
+</html>

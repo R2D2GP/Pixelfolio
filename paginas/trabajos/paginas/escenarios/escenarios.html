@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="imagenes/yo_ico.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/style.css">
+        <title> Escenarios - Pixelfolio </title>
+    </head>
+<!--Aqui ta el header-->
+    <body>
+        <header class="header">
+            <div class="header-top">
+                <div class="col-img"><a href="../../../../index.html"><img src="imagenes/pixelfolio.png" title="Pixelfolio" alt="Pixelfolio"></a></div>
+                <button class="header-btn">=</button>
+            </div>
+            <nav class="header-menu">
+                <ul>
+                    <li class="men1" ><a href="../../../sobre_mi/sobre_mi.html" >Sobre mi</a></li>
+                    <li class="men1" ><a href="../../../trabajos/trabajos.html" >Trabajos</a></li>
+                    <li class="men1" ><a href="../../../inspiracion/inspiracion.html" >Inspiracion</a></li>
+                    <li class="men1" ><a href="../../../contacto/contacto.html" >Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--Aqui termina el header-->
+        <br>
+        <br>
+    <div class="contenido">
+        <div class="columna1">
+            <img src="imagenes/fondo2.png" title="Fondo" alt="Fondo" class="col1">
+        </div>
+        <br>
+        <br>
+        <div class="fila1">
+            <img src="imagenes/fondo3.png" title="Tileset" alt="Tileset" class="fil1">
+        </div>
+        <div class="fila2">
+            <img src="imagenes/fondo4.png" title="Escenario 1" alt="Escenario 1" class="fil2">
+            <img src="imagenes/fondo5.png" title="Escenario 2" alt="Escenario 2" class="fil2">
+            <img src="imagenes/fondo6.png" title="Escenario 3" alt="Escenario 3" class="fil2">
+        </div>
+    </div>
+        <br><br><br><br>
+<!--Aqui comienza el footer-->
+<footer>
+    <div class="menu2">
+        <a href="../../../sobre_mi/sobre_mi.html" class="men2">Sobre mi</a>
+        <a href="../../../trabajos/trabajos.html" class="men2">Trabajos</a>
+        <a href="../../../inspiracion/inspiracion.html" class="men2">Inspiraciòn</a>
+        <a href="../../../contacto/contacto.html" class="men2">Contacto</a>
+    </div>
+    <div class="footer-bottom">
+        <p> Copyright &copy;2022 Arturo. Diseñado por <span>ArturoR2D2</span></p>
+    </div>
+</footer>
+<!--Aqui termina el footer-->
+<!--Parte importante del header-->
+<script>
+const header_btn = document.querySelector('.header-btn')
+const header_menu = document.querySelector('.header-menu')
+header_btn.addEventListener('click', () => { 
+    if (header_menu.style.display != 'block') {
+        header_menu.style.display = 'block'
+    } else {
+        header_menu.style.display = 'none'
+    }
+})
+</script>
+<!--Parte importante del header final-->
+</body>
+</html>

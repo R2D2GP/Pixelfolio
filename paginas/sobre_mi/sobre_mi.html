@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="imagenes/yo_ico.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/style.css">
+        <title> Sobre mi - Pixelfolio </title>
+    </head>
+<!--Aqui ta el header-->
+    <body>
+        <header class="header">
+            <div class="header-top">
+                <div class="col-img"><a href="../../index.html"><img src="imagenes/pixelfolio.png" title="Pixelfolio" alt="Pixelfolio"></a></div>
+                <button class="header-btn">☰</button>
+            </div>
+            <nav class="header-menu">
+                <ul>
+                    <li class="men1" ><a href="../sobre_mi/sobre_mi.html" >Sobre mi</a></li>
+                    <li class="men1" ><a href="../trabajos/trabajos.html" >Trabajos</a></li>
+                    <li class="men1" ><a href="../inspiracion/inspiracion.html" >Inspiracion</a></li>
+                    <li class="men1" ><a href="../contacto/contacto.html" >Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--Aqui termina el header-->
+        <div class="primer_grupo">
+            <h1>Sobre mì</h1>
+                <div class="sobre_mi">
+                    <div><img class="arturo" src="imagenes/arturo.png" title="Arturo" alt="Arturo"></div>
+                    <div class="descripcion">Mi nombre es Arturo, soy un muchacho apasionado por los videojuegos. Me encanta jugarlos tanto como ver su desarrollo e incluso sueño con tener mi propio videojuego. Para iniciar el camino a cumplir mi meta, comence a hacer pixel art, esto debido a mi fanatismo por lo retro y los juegos en 2D. En este PIXELFOLIO podras ver parte de mi trabajo en Pixel art.</div>
+                </div>
+        </div>        
+
+
+        <div class="segundo_grupo">
+            <h2>Softwares</h2>
+            <div class="softwares-pixel">
+                <img src="imagenes/pr_logo.png" title="Premiere" alt="Premiere" class="img3">
+                <img src="imagenes/ae_logo.png" title="After effects" alt="After effects" class="img3">
+                <img src="imagenes/ps_logo.png" title="Photoshop" alt="Photoshop" class="img3">
+                <img src="imagenes/ai_logo.png" title="Ilustrator" alt="Ilustrator" class="img3">
+                <img src="imagenes/pe_logo.png" title="Pyxel edit" alt="Pyxel edit" class="img3">
+            </div>
+        </div>
+        <br><br>
+        <div class="tercer_grupo">
+            <h3>Habilidades en:</h3>
+            <br>
+            <div class="skills">
+                <p><u>Ediciòn de video</u></p><br>
+                <p><u>Pixel art</u></p><br>
+                <p><u>Animaciòn en pixel</u></p><br>
+                <p><u>Voxel art</u></p><br>
+                <p><u>Programaciòn web</u></p><br>
+            </div>
+        </div>
+
+        <div class="cuarto_grupo">
+            <div class="pildora_section">
+                <img src="imagenes/pildora_logo.png" title="La pildora gamer" alt="La pildora gamer" class="img2">
+                <p class="pildora">La pildora gamer</p>
+            </div>
+                <p class="mira">Tambièn cuento con una pàgina en Tik tok, donde subo noticias y curiosidades de videojuegos</p>
+        </div>
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@la.pildora.gamer.oficial" data-unique-id="la.pildora.gamer.oficial" data-embed-type="creator" > <section> <a target="noopener" href="https://www.tiktok.com/@la.pildora.gamer.oficial?refer=creator_embed">@la.pildora.gamer.oficial</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+<!--Aqui comienza el footer-->
+        <footer>
+            <div class="menu2">
+                <a href="../sobre_mi/sobre_mi.html" class="men2">Sobre mi</a>
+                <a href="../trabajos/trabajos.html" class="men2">Trabajos</a>
+                <a href="../inspiracion/inspiracion.html" class="men2">Inspiraciòn</a>
+                <a href="../contacto/contacto.html" class="men2">Contacto</a>
+            </div>
+            <div class="footer-bottom">
+                <p> Copyright &copy;2022 Arturo. Diseñado por <span>ArturoR2D2</span></p>
+            </div>
+        </footer>
+<!--Aqui termina el footer-->
+<!--Parte importante del header-->
+    <script>
+        const header_btn = document.querySelector('.header-btn')
+        const header_menu = document.querySelector('.header-menu')
+        header_btn.addEventListener('click', () => { 
+            if (header_menu.style.display != 'block') {
+                header_menu.style.display = 'block'
+            } else {
+                header_menu.style.display = 'none'
+            }
+        })
+    </script>
+<!--Parte importante del header final-->
+    </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="imagenes/yo_ico.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/style.css">
+        <title> Trabajos - Pixelfolio </title>
+    </head>
+<!--Aqui ta el header-->
+    <body>
+        <header class="header">
+            <div class="header-top">
+                <div class="col-img"><a href="../../index.html"><img src="imagenes/pixelfolio.png" title="Pixelfolio" alt="Pixelfolio"></a></div>
+                <button class="header-btn">=</button>
+            </div>
+            <nav class="header-menu">
+                <ul>
+                    <li class="men1" ><a href="../sobre_mi/sobre_mi.html" >Sobre mi</a></li>
+                    <li class="men1" ><a href="../trabajos/trabajos.html" >Trabajos</a></li>
+                    <li class="men1" ><a href="../inspiracion/inspiracion.html" >Inspiracion</a></li>
+                    <li class="men1" ><a href="../contacto/contacto.html" >Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--Aqui termina el header-->
+    <div class="primer-grupo">
+        <h1>Trabajos</h1>
+            <div class="subgrupo1">
+              <div class="col">
+                Este de aqui fue mi primer pixel art de mi vida
+              </div>
+              <div class="col2">
+                <img src="imagenes/pixelyo2.png" title="Arturo" alt="Arturo" class="img1">
+              </div>
+              <div class="col">
+                Lo hice sin nada de conocimiento y con mucho cariño
+              </div>
+            </div>
+          </div>
+    </div>    
+        <br>
+
+        <div class="segundo-grupo">
+            <div class="subgrupo2">
+                <div class="personajes">
+                    <div class="col3">
+                        personajes
+                    </div>
+                    <div class="selection">
+                      <a href="paginas/personajes/personajes.html"><img src="imagenes/pixel_arturo1.png" title="Arturo" alt="Arturo" class="img-selection"></a>  
+                    </div>
+                </div>
+                <div class="animaciones">
+                    <div class="col3">
+                        animaciones
+                    </div>
+                    <div class="selection">
+                        <a href="paginas/animaciones/animaciones.html"><img src="imagenes/animacion.gif" title="Animacion" alt="Animacion" class="img-selection"></a>
+                    </div>
+                </div>
+                <div class="escenarios">
+                    <div class="col3">
+                        escenarios
+                    </div>
+                    <div class="selection">
+                        <a href="paginas/escenarios/escenarios.html"><img src="imagenes/escenario.png" title="Escenario" alt="Escenario" class="img-selection"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="subgrupo3">
+                <div class="ilustraciones">
+                    <div class="col3">
+                        ilustraciones
+                    </div>
+                    <div class="selection">
+                        <a href="paginas/ilustraciones/ilustraciones.html"><img src="imagenes/eivril1.png" title="Ilustraciones" alt="Ilustraciones" class="img-selection"></a>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="col3">
+                        video
+                    </div>
+                    <div class="video">
+                        <video controls>
+                            <source src="imagenes/cizar.mp4">
+                        </video>
+                    </div>
+                </div>          
+            </div>
+        </div>
+<br>
+
+<!--Aqui comienza el footer-->
+        <footer>
+            <div class="menu2">
+                <a href="../sobre_mi/sobre_mi.html" class="men2">Sobre mi</a>
+                <a href="../trabajos/trabajos.html" class="men2">Trabajos</a>
+                <a href="../inspiracion/inspiracion.html" class="men2">Inspiraciòn</a>
+                <a href="../contacto/contacto.html" class="men2">Contacto</a>
+            </div>
+            <div class="footer-bottom">
+                <p> Copyright &copy;2022 Arturo. Diseñado por <span>ArturoR2D2</span></p>
+            </div>
+        </footer>
+<!--Aqui termina el footer-->
+<!--Parte importante del header-->
+    <script>
+        const header_btn = document.querySelector('.header-btn')
+        const header_menu = document.querySelector('.header-menu')
+        header_btn.addEventListener('click', () => { 
+            if (header_menu.style.display != 'block') {
+                header_menu.style.display = 'block'
+            } else {
+                header_menu.style.display = 'none'
+            }
+        })
+    </script>
+<!--Parte importante del header final-->
+    </body>
+</html>

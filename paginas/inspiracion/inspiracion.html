@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="imagenes/yo_ico.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/style.css">
+        <title> Inspiracion - Pixelfolio </title>
+    </head>
+<!--Aqui ta el header-->
+    <body>
+        <header class="header">
+            <div class="header-top">
+                <div class="col-img"><a href="../../index.html"><img src="imagenes/pixelfolio.png" title="Pixelfolio" alt="Pixelfolio"></a></div>
+                <button class="header-btn">=</button>
+            </div>
+            <nav class="header-menu">
+                <ul>
+                    <li class="men1" ><a href="../sobre_mi/sobre_mi.html" >Sobre mi</a></li>
+                    <li class="men1" ><a href="../trabajos/trabajos.html" >Trabajos</a></li>
+                    <li class="men1" ><a href="../inspiracion/inspiracion.html" >Inspiracion</a></li>
+                    <li class="men1" ><a href="../contacto/contacto.html" >Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--Aqui termina el header-->
+
+<div class="primer-grupo">
+    <h1>Inspiracion</h1><br>
+    En esta pagina les muestro una serie de imagenes de mis juegos favoritos con arte pixel y de artistas a los que sigo para aprender mas sobre el pixel art y poder mejorar mis tecnicas
+</div>
+<div class="segundo-grupo">
+    <div class="lista">
+        <a href="https://www.youtube.com/c/BJGpixel">
+            <div class="enlaces-g1">
+                Brandon James Greer
+            </div>
+        </a>
+        <a href="https://www.youtube.com/user/n01elozano">
+            <div class="enlaces-g1">
+                Elias Lozano
+            </div>
+        </a>
+        <a href="https://www.youtube.com/c/PixelOverloadChannel">
+            <div class="enlaces-g1">
+                Pixel Overload
+            </div>
+        </a>
+        <a href="https://twitter.com/Pixel_Pit">
+            <div class="enlaces-g2">
+                Pit
+            </div>
+        </a>
+        <a href="https://twitter.com/TofuPixel">
+            <div class="enlaces-g2">
+                Tofu
+            </div>
+        </a>
+        <a href="https://twitter.com/mirrutatep">
+            <div class="enlaces-g2">
+                Mirru
+            </div>
+        </a>
+        <a href="https://twitter.com/den_pixel">
+            <div class="enlaces-g2">
+                Den Pixel Art
+            </div>
+        </a>
+        <a href="https://www.instagram.com/muchopixels/">
+            <div class="enlaces-g3">
+                Mucho Pixels
+        </div>
+        </a>
+        <a href="https://www.instagram.com/pixelart.mag/">
+            <div class="enlaces-g3">
+                Pixel Art Magazine
+            </div>
+        </a>
+        <a href="https://www.galamot.com/pixel-art.html">
+            <div class="enlaces-g4">
+                Galamot
+            </div>
+        </a>
+    </div>
+    <div class="imagenes">
+        <img src="imagenes/pokemon_crystal.png" title="Pokemon crystal" alt="Pokemon crystal" class="img1">
+        <img src="imagenes/mother 3.png" title="Mother 3" alt="Mother 3" class="img1">
+        <img src="imagenes/scott_pilgrim.png" title="Scott Pilgrim vs the world: The game" alt="Scott Pilgrim vs the world: The game" class="img1">
+    </div>
+</div>
+<div class="imagen-extra">
+    <img src="imagenes/publicistas.png" title="Publicistas vs el mundo" alt="Publicistas vs el mundo" class="publi">
+</div>
+
+<!--Aqui comienza el footer-->
+    <footer>
+        <div class="menu2">
+            <a href="../sobre_mi/sobre_mi.html" class="men2">Sobre mi</a>
+            <a href="../trabajos/trabajos.html" class="men2">Trabajos</a>
+            <a href="../inspiracion/inspiracion.html" class="men2">Inspiraciòn</a>
+            <a href="../contacto/contacto.html" class="men2">Contacto</a>
+        </div>
+        <div class="footer-bottom">
+            <p> Copyright &copy;2022 Arturo. Diseñado por <span>ArturoR2D2</span></p>
+        </div>
+    </footer>
+<!--Aqui termina el footer-->
+<!--Parte importante del header-->
+    <script>
+    const header_btn = document.querySelector('.header-btn')
+    const header_menu = document.querySelector('.header-menu')
+    header_btn.addEventListener('click', () => { 
+        if (header_menu.style.display != 'block') {
+            header_menu.style.display = 'block'
+        } else {
+            header_menu.style.display = 'none'
+        }
+    })
+    </script>
+<!--Parte importante del header final-->
+</body>
+</html>

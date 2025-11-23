@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 50px;
+    margin-left: 3%;
+}
+
+body {
+    background-color: #344147;
+    font-family: silkscreen;
+}
+
+header {
+    background-color: #272f32;
+    padding: 3%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.header-top {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.header-btn {
+    font-size: 40px;
+    margin-left: 4%;
+    background: none;
+    border-style: none;
+    color: #629c8c;
+}
+
+.header-menu {
+    display: none;
+}
+
+ul {
+    text-align: auto;
+    font-size: 20px;
+}
+
+ul :hover {
+    font-size: 32px;
+}
+
+.header-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.header-menu a {
+    color: #8be0c8;
+    text-decoration: none;
+}
+
+/* Aqui termina el header */
+
+h1 {
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    color: #68c3a9;
+    margin-top: 30%;
+}
+
+.primer_grupo {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.sobre_mi{
+    margin-top: -9%;
+    display: flex;
+    color: #8be0c8;
+}
+
+.arturo {
+    height: 340px;
+    margin-top: 70%;
+}
+
+.descripcion {
+    margin-top: 15%;
+}
+
+/*salto */
+
+.segundo_grupo {
+    width: 100%;
+    margin-top: 10%;
+}
+
+h2 {
+    text-align: center;
+    padding: 2%;
+    font-size: 40px;
+    color: #68c3a9;
+}
+
+.softwares-pixel {
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    background-color: #272f32;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 6px;
+    border-color: #8be0c8;
+}
+
+/*salto*/
+
+.tercer_grupo {
+    width: 100%;
+}
+
+.img3 {
+    height: 120px;
+}
+
+
+h3 {
+    color: #629c8c;
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.skills {
+    color: #597d73;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.cuarto_grupo {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #272f32;
+    padding: 4%;
+    margin-top: 10%;
+    border-style: double;
+    border-color: #68c3a9;
+    border-width: 5px;
+    border-radius: 4px;
+}
+
+.mira {
+    margin-top: 10%;
+    font-size: 25px;
+    color: #629c8c;
+}
+
+.img2 {
+    height: 250px;
+}
+
+.pildora {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 8%;
+    color: #629c8c;
+}
+
+.tiktok-embed {
+    min-width: 100%;
+    height: 420px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #629c8c;
+    border-width: 3px;
+    position:static;
+}
+
+/* Aqui el footer */
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    background-color: #272f32;
+  }
+  
+.menu2 {
+      width: 100%;
+  }
+  
+.men2 {
+    margin-left: 2%;
+      text-decoration: none;
+      color: #68c3a9;
+      font-size: 17px;
+}
+  
+.footer-bottom {
+      text-transform: uppercase;
+      opacity: 4;
+      color: aliceblue;
+      background-color: #272f32;
+      font-size: 10px;
+      padding: 20px 0;
+  }
+
+/* Aqui termina el footer */
+
+@media screen and (min-width: 810px) {
+    body {
+        background: #344147;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-menu {
+        padding-top: 0;
+        display: block !important;
+    }
+
+    .header-menu ul {
+        flex-direction: row;
+    }
+
+    .header-btn {
+        cursor: pointer;
+        display: none;
+    }
+
+    h1 {
+        margin-top: 13%;
+    }
+
+    ul {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    ul :hover {
+        color: #b3f9e5;
+        font-size: 22px;
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+        padding: 3px;
+        background-color: #272f32;
+      }
+      
+    .menu2 {
+        width: 100%;
+      }
+      
+    .men2 {
+        margin-left: 8%;
+        text-decoration: none;
+        color: #68c3a9;
+        font-size: 17px;
+    }
+      
+    .footer-bottom {
+        text-transform: uppercase;
+        opacity: 4;
+        color: aliceblue;
+        background-color: #272f32;
+        font-size: 10px;
+        padding: 20px 0;
+      }
+
+/*Hasta aqui*/
+
+    .primer_grupo {
+        width: 100%;
+    }
+
+    .descripcion {
+        font-size: 25px;
+        margin-right: 2%;
+        margin-top: 9%;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 2%;
+        margin-left: 37%;
+        margin-right: 42%;
+    }
+
+    .segundo_grupo {
+        width: 100%;
+        margin-top: -2%;
+    }
+
+    .softwares-pixel {
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+
+    .img3 {
+        height: 120px;
+    }
+    
+    h3 {
+        color: #629c8c;
+        font-size: 30px;
+        margin-left: 5%;
+    }
+    
+    .skills {
+        color: #597d73;
+        margin-left: 5%;
+        margin-right: 50%;
+        font-size: 20px;
+    }
+    
+    .cuarto_grupo {
+        background-color: #272f32;
+        padding: 1%;
+        width: 55%;
+        margin-left: 40%;
+        margin-right: 8%;
+        margin-top: -25%;
+        border-style: double;
+        border-color: #68c3a9;
+        border-width: 5px;
+        border-radius: 4px;
+    }
+    
+    .mira {
+        margin-right: 5%;
+        color: #629c8c;
+        font-size: 25px;
+    }
+    
+    .img2 {
+        height: 250px;
+    }
+    
+    .pildora {
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 8%;
+        color: #629c8c;
+    }
+    
+    .tiktok-embed {
+        width: 70%;
+        margin-left: 17%;
+        margin-right: 17%;
+        height: 420px;
+        border-style: solid;
+        border-radius: 20px;
+        border-color: #629c8c;
+        border-width: 3px;
+        position:static;
+    }
+}

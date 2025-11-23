@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="imagenes/yo_ico.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/style.css">
+        <title> Personajes - Pixelfolio </title>
+    </head>
+<!--Aqui ta el header-->
+    <body>
+        <header class="header">
+            <div class="header-top">
+                <div class="col-img"><a href="../../../../index.html"><img src="imagenes/pixelfolio.png" title="Pixelfolio" alt="Pixelfolio"></a></div>
+                <button class="header-btn">=</button>
+            </div>
+            <nav class="header-menu">
+                <ul>
+                    <li class="men1" ><a href="../../../sobre_mi/sobre_mi.html" >Sobre mi</a></li>
+                    <li class="men1" ><a href="../../../trabajos/trabajos.html" >Trabajos</a></li>
+                    <li class="men1" ><a href="../../../inspiracion/inspiracion.html" >Inspiracion</a></li>
+                    <li class="men1" ><a href="../../../contacto/contacto.html" >Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--Aqui termina el header-->
+        <br>
+        <br>
+    <div class="contenido">
+        <div class="columna1">
+            <img src="imagenes/arturo.png" title="Arturo" alt="Arturo" class="col1">
+            <img src="imagenes/andrea.png" title="Andrea" alt="Andrea" class="col1">
+            <img src="imagenes/avril.png" title="Avril" alt="Avril" class="col1">
+        </div>
+        <br>
+        <br>
+        <div class="columna2">
+            <img src="imagenes/beck.png" title="Rebeka" alt="Rebeka" class="col2">
+            <img src="imagenes/cesar.PNG" title="Cèsar" alt="Cèsar" class="col2">
+            <img src="imagenes/jonathan.png" title="Jonathan" alt="Jonathan" class="col2">
+        </div>
+        <br>
+        <br>
+        <div class="columna3">
+            <img src="imagenes/pam.png" title="Pamela" alt="Pamela" class="col3">
+            <img src="imagenes/samuel.png" title="Samuel" alt="Samuel" class="col3">
+            <img src="imagenes/ronald.png" title="Ronald" alt="Ronald" class="col3">
+        </div>
+        <br>
+        <br>
+        <div class="columna4">
+            <img src="imagenes/chizar_kart.png" title="Cèsar kart" alt="Cèsar kart" class="col4">
+            <img src="imagenes/pixel_andrea.png" title="Arturo chibi" alt="Andrea chibi" class="col4">
+            <img src="imagenes/pixel_arturo.png" title="Andrea chibi" alt="Arturo chibi" class="col4">
+        </div>
+        <br>
+        <br>
+        <div class="columna5">
+            <img src="imagenes/melady.png" title="Melady" alt="Melady" class="col5">
+            <img src="imagenes/michelle.png" title="Michelle" alt="Michelle" class="col5">
+            <img src="imagenes/gabriel.png" title="Gabriel" alt="Gabriel" class="col5">
+        </div>
+        <br>
+        <br>
+        <div class="columna6">
+            <img src="imagenes/code_name_blood.png" title="code_name_blood" alt="Blood" class="col6">
+            <img src="imagenes/code_name_iso.png" title="code_name_iso" alt="ISO" class="col6">
+            <img src="imagenes/code_name_nakama.png" title="code_name_nakama" alt="Nakama" class="col6">
+        </div>
+        <br>
+        <br>
+        <div class="columna7">
+            <img src="imagenes/beck_draw.png" title="Buha" alt="" class="col7">
+            <img src="imagenes/hinawa cusqueña.png" title="Hinawa cusqueña" alt="Hinawa cusqueña" class="col7">
+            <img src="imagenes/viejita.png" title="Viejita" alt="Viejita" class="col7">
+        </div>
+        <br>
+    </div>
+<!--Aqui comienza el footer-->
+<footer>
+    <div class="menu2">
+        <a href="../../../sobre_mi/sobre_mi.html" class="men2">Sobre mi</a>
+        <a href="../../../trabajos/trabajos.html" class="men2">Trabajos</a>
+        <a href="../../../inspiracion/inspiracion.html" class="men2">Inspiraciòn</a>
+        <a href="../../../contacto/contacto.html" class="men2">Contacto</a>
+    </div>
+    <div class="footer-bottom">
+        <p> Copyright &copy;2022 Arturo. Diseñado por <span>ArturoR2D2</span></p>
+    </div>
+</footer>
+<!--Aqui termina el footer-->
+<!--Parte importante del header-->
+<script>
+const header_btn = document.querySelector('.header-btn')
+const header_menu = document.querySelector('.header-menu')
+header_btn.addEventListener('click', () => { 
+    if (header_menu.style.display != 'block') {
+        header_menu.style.display = 'block'
+    } else {
+        header_menu.style.display = 'none'
+    }
+})
+</script>
+<!--Parte importante del header final-->
+</body>
+</html>
